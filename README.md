@@ -31,7 +31,7 @@ The mod replaces:
 - Megasphere
 - Armor Bonus
 
-It doesn't replace the player, it's all ACS.
+It doesn't replace the player, it's all ACS Magic.
 
 It also works perfectly in multiplayer.
 
