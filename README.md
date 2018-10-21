@@ -1,7 +1,7 @@
 # Simple Shields for Doom
 A Simple Shield mod that replaces Armor in Doom with Tiered Shields which recharges overtime and cannot be lost.
 
-There are 4 Shields
+Currently there are 4 Shields:
 
 Shield Type I - The Shield you spawn with.
 Maximum Charge: 50
