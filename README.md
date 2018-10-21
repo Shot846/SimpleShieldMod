@@ -35,6 +35,6 @@ It doesn't replace the player, it's all ACS.
 
 It also works perfectly in multiplayer.
 
-Works in GZDoom/Zdoom/Zandronum3
+Plays perfectly in GZDoom/Zdoom/Zandronum3
 
 Special Thanks to Jigsaw (Zandronum Forum Name) for introducing me to ACS.
