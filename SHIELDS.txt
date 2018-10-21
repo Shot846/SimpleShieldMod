@@ -1,0 +1,143 @@
+ACTOR ShieldTypeI : BasicArmorPickup
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "$GOTMEGA" // "Picked up the Basic Shield!"
+  Inventory.Icon "SHTYP1"
+  Armor.SavePercent 100
+  Armor.SaveAmount 50
+  States
+  {
+  Spawn:
+    ARM2 A 6
+    ARM2 B 6 Bright
+    Loop
+  }
+}
+
+ACTOR ShieldTypeIBonus : BasicArmorBonus
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "" // "Picked up the Basic Shield!"
+  Inventory.Icon "SHTYP1"
+  Armor.SavePercent 100
+  Armor.SaveAmount 1
+  Armor.MaxSaveAmount 50
+  +COUNTITEM
+  +INVENTORY.ALWAYSPICKUP
+  States
+  {
+  Spawn:
+    ARM2 A 6
+    ARM2 B 6 Bright
+    Loop
+  }
+}
+
+ACTOR ShieldTypeII : BasicArmorPickup
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "You got the Shield Type II!"
+  Inventory.Icon "SHTYP2"
+  Armor.SavePercent 100
+  Armor.SaveAmount 100
+  States
+  {
+  Spawn:
+    SHTP B 1
+    Loop
+  }
+}
+
+ACTOR ShieldTypeIIBonus : BasicArmorBonus
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "" // "Picked up the Basic Shield!"
+  Inventory.Icon "SHTYP2"
+  Armor.SavePercent 100
+  Armor.SaveAmount 1
+  Armor.MaxSaveAmount 100
+  +COUNTITEM
+  +INVENTORY.ALWAYSPICKUP
+  States
+  {
+  Spawn:
+    SHTP B 1
+    Loop
+  }
+}
+
+ACTOR ShieldTypeIII : BasicArmorPickup
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "You got the Shield Type II!"
+  Inventory.Icon "SHTYP3"
+  Armor.SavePercent 100
+  Armor.SaveAmount 200
+  States
+  {
+  Spawn:
+    SHTP C 1
+    Loop
+  }
+}
+
+ACTOR ShieldTypeIIIBonus : BasicArmorBonus
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "" // "Picked up the Basic Shield!"
+  Inventory.Icon "SHTYP3"
+  Armor.SavePercent 100
+  Armor.SaveAmount 1
+  Armor.MaxSaveAmount 200
+  +COUNTITEM
+  +INVENTORY.ALWAYSPICKUP
+  States
+  {
+  Spawn:
+    SHTP C 1
+    Loop
+  }
+}
+
+
+ACTOR ShieldTypeIV : BasicArmorPickup
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "You got the Shield Type IV, WOW!"
+  Inventory.Icon "SHTYP4"
+  Armor.SavePercent 100
+  Armor.SaveAmount 300
+  States
+  {
+  Spawn:
+    SHTP D 1
+    Loop
+  }
+}
+
+ACTOR ShieldTypeIVBonus : BasicArmorBonus
+{
+  Radius 20
+  Height 16
+  Inventory.PickupMessage "" // "Picked up the Basic Shield!"
+  Inventory.Icon "SHTYP4"
+  Armor.SavePercent 100
+  Armor.SaveAmount 1
+  Armor.MaxSaveAmount 300
+  +COUNTITEM
+  +INVENTORY.ALWAYSPICKUP
+  States
+  {
+  Spawn:
+    SHTP D 1
+    Loop
+  }
+}
+
