@@ -1,5 +1,5 @@
 # Simple Shields for Doom
-A Simple Shield mod that replaces Armor in Doom with Tiered Shields which recharges overtime and cannot be lost.
+A Simple Shield mod that replaces Armor in Doom with Tiered Shields which recharge overtime and cannot be lost.
 
 Currently there are 4 Shields:
 
