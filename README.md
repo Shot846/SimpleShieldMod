@@ -33,7 +33,10 @@ The mod replaces:
 
 It doesn't replace the player, it's all ACS Magic.
 
-Plays perfectly in GZDoom/Zdoom/Zandronum3 (Multiplayer Compatible)
+Plays perfectly in GZDoom/ZDoom ("Multiplayer" compatible)
+
+It's also compatible with Zandronum3, but you have to remove the MENUDEF to make it work.
+You can find a Zan version on my server.
 
 ## ToDo
 
