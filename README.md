@@ -33,8 +33,15 @@ The mod replaces:
 
 It doesn't replace the player, it's all ACS Magic.
 
-It also works perfectly in multiplayer.
+Plays perfectly in GZDoom/Zdoom/Zandronum3 (Multiplayer Compatible)
 
-Plays perfectly in GZDoom/Zdoom/Zandronum3
+## ToDo
+
+- Make charge rate changeable
+- Make SubTiers(?)
+- More Randomization
+- Make a special version ;)
+
 
 Special Thanks to Jigsaw (Zandronum Forum Name) for introducing me to ACS.
+
