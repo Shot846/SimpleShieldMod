@@ -1,0 +1,21 @@
+AddOptionMenu "OptionsMenu"
+{
+	StaticText " "
+	Submenu "Simple Shields Options", "SimpleShieldsMenu"
+}
+
+OptionMenu "SimpleShieldsMenu" 
+{
+	Title "Simple Shields Options"
+	Slider "Shield Type I Max", "shot_shieldtypeimax", 0, 1000, 50
+	Slider "Shield Type I Delay", "shot_shieldtypeidelay", 0, 1000, 280
+	Slider "Shield Type II Max", "shot_shieldtypeiimax", 0, 1000, 100
+	Slider "Shield Type II Delay", "shot_shieldtypeiidelay", 0, 1000, 245
+	Slider "Shield Type III Max", "shot_shieldtypeiiimax", 0, 1000, 200
+	Slider "Shield Type III Delay", "shot_shieldtypeiiidelay", 0, 1000, 210
+	Slider "Shield Type IV Max", "shot_shieldtypeivmax", 0, 1000, 300
+	Slider "Shield Type II Max", "shot_shieldtypeivdelay", 0, 1000, 175
+	StaticText ""
+	StaticText "RESET:"
+	StaticText "Type PUKENAME ResetShieldCvarsToDefault in Console"
+}

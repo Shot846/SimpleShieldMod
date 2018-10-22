@@ -1,0 +1,8 @@
+server int shot_shieldtypeimax = 50;
+server int shot_shieldtypeidelay = 280;
+server int shot_shieldtypeiimax = 100;
+server int shot_shieldtypeiidelay = 245;
+server int shot_shieldtypeiiimax = 200;
+server int shot_shieldtypeiiidelay = 210;
+server int shot_shieldtypeivmax = 300;
+server int shot_shieldtypeivdelay = 175;

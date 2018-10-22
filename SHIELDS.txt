@@ -9,8 +9,7 @@ ACTOR ShieldTypeI : BasicArmorPickup
   States
   {
   Spawn:
-    ARM2 A 6
-    ARM2 B 6 Bright
+    SHTP A 1
     Loop
   }
 }
@@ -23,14 +22,13 @@ ACTOR ShieldTypeIBonus : BasicArmorBonus
   Inventory.Icon "SHTYP1"
   Armor.SavePercent 100
   Armor.SaveAmount 1
-  Armor.MaxSaveAmount 50
+  Armor.MaxSaveAmount 1000
   +COUNTITEM
   +INVENTORY.ALWAYSPICKUP
   States
   {
   Spawn:
-    ARM2 A 6
-    ARM2 B 6 Bright
+    SHTP A 1
     Loop
   }
 }
@@ -59,7 +57,7 @@ ACTOR ShieldTypeIIBonus : BasicArmorBonus
   Inventory.Icon "SHTYP2"
   Armor.SavePercent 100
   Armor.SaveAmount 1
-  Armor.MaxSaveAmount 100
+  Armor.MaxSaveAmount 1000
   +COUNTITEM
   +INVENTORY.ALWAYSPICKUP
   States
@@ -94,7 +92,7 @@ ACTOR ShieldTypeIIIBonus : BasicArmorBonus
   Inventory.Icon "SHTYP3"
   Armor.SavePercent 100
   Armor.SaveAmount 1
-  Armor.MaxSaveAmount 200
+  Armor.MaxSaveAmount 1000
   +COUNTITEM
   +INVENTORY.ALWAYSPICKUP
   States
@@ -130,7 +128,7 @@ ACTOR ShieldTypeIVBonus : BasicArmorBonus
   Inventory.Icon "SHTYP4"
   Armor.SavePercent 100
   Armor.SaveAmount 1
-  Armor.MaxSaveAmount 300
+  Armor.MaxSaveAmount 1000
   +COUNTITEM
   +INVENTORY.ALWAYSPICKUP
   States
