@@ -28,7 +28,7 @@ Charge Rate: 1/12s
 The mod replaces:
 - Green Armor -> Shield Type II
 - Blue Armor -> Shield Type III
-- Megasphere -> Custom Megasphere
+- Megasphere -> Random Spawner (Custom Megasphere, Shield Type IV)
 - Armor Bonus -> Health Bonus
 
 It doesn't replace the player, it's all ACS Magic.
