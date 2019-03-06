@@ -40,7 +40,7 @@ You can find a Zan version on my server.
 
 ## ToDo
 
-* ~~Make charge rate changeable
+* ~~Make charge rate changeable~~
 * Make SubTiers(?)
 * More Randomization
 * Make a special version ;)
