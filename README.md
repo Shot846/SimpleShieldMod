@@ -25,11 +25,11 @@ Charge Rate: 1/12s
 
 ## Compatibility with mods
 
-The mod replaces:
-- Green Armor -> Shield Type II
-- Blue Armor -> Shield Type III
-- Megasphere -> Random Spawner (Custom Megasphere, Shield Type IV)
-- Armor Bonus -> Health Bonus
+The mod currently replaces:
+* Green Armor -> Shield Type II
+* Blue Armor -> Shield Type III
+* Megasphere -> Random Spawner (Custom Megasphere, Shield Type IV)
+* Armor Bonus -> Health Bonus
 
 It doesn't replace the player, it's all ACS Magic.
 
@@ -40,10 +40,10 @@ You can find a Zan version on my server.
 
 ## ToDo
 
-- Make charge rate changeable
-- Make SubTiers(?)
-- More Randomization
-- Make a special version ;)
+* ~~Make charge rate changeable
+* Make SubTiers(?)
+* More Randomization
+* Make a special version ;)
 
 
 Special Thanks to Jigsaw (Zandronum Forum Name) for introducing me to ACS.
