@@ -3,7 +3,7 @@ A Simple Shield mod that replaces Armor in Doom with Tiered Shields which rechar
 
 Currently there are 4 Shields:
 
-### Shield Type I - The Shield you spawn with.
+### Shield Type I - Starting Shield
 Maximum Charge: 50 (can be configured via menudef or console cvar)
 Delay: 8 seconds (can be configured via menudef or console cvar)
 Charge Rate: 1/9s
